@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JR Digital Marketing</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#07111f;color:white}
+header{
+display:flex;justify-content:space-between;align-items:center;
+padding:18px 7%;background:#06101d;border-bottom:1px solid rgba(255,255,255,.08);
+position:sticky;top:0
+}
+.logo img{height:60px}
+nav a{color:white;text-decoration:none;margin:0 12px}
+.btn{
+background:#22c55e;padding:12px 24px;border-radius:40px;
+color:white;text-decoration:none;font-weight:bold
+}
+.hero{
+display:grid;grid-template-columns:1fr 1fr;
+padding:90px 7%;align-items:center;
+background:linear-gradient(135deg,#07111f,#0f172a)
+}
+.hero h1{font-size:60px;line-height:1.2;margin-bottom:20px}
+.hero span{color:#22c55e}
+.hero p{font-size:18px;line-height:1.8;color:#d1d5db;margin-bottom:25px}
+.hero img{width:100%}
+.services{
+padding:80px 7%;
+background:white;color:#111827;text-align:center
+}
+.cards{
+display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;margin-top:40px
+}
+.card{
+padding:30px;background:#fff;border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08)
+}
+.card i{
+font-size:35px;color:#22c55e;margin-bottom:15px
+}
+.rate{
+padding:80px 7%;
+background:#06101d;text-align:center
+}
+.rate h2{font-size:50px;color:#22c55e}
+.footer{
+padding:30px;text-align:center;background:#020617
+}
+@media(max-width:768px){
+.hero{grid-template-columns:1fr}
+.hero h1{font-size:40px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<img src="logo.png">
+</div>
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Portfolio</a>
+<a href="#">Contact</a>
+</nav>
+<a class="btn" href="https://wa.me/8801316112465">WhatsApp</a>
+</header>
+
+<section class="hero">
+<div>
+<h1>Grow Your Business With <span>JR Digital Marketing</span></h1>
+<p>Facebook Boosting, Website Design, Pixel Setup, YouTube Service, Dollar Sell এবং Digital Marketing Service.</p>
+<a class="btn" href="https://wa.me/8801316112465">Order Now</a>
+</div>
+<div>
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png">
+</div>
+</section>
+
+<section class="services">
+<h2>Our Premium Services</h2>
+<div class="cards">
+<div class="card"><i class="fab fa-facebook"></i><h3>Facebook Boosting</h3></div>
+<div class="card"><i class="fab fa-youtube"></i><h3>YouTube Service</h3></div>
+<div class="card"><i class="fas fa-globe"></i><h3>Website Design</h3></div>
+<div class="card"><i class="fas fa-chart-line"></i><h3>Pixel Setup</h3></div>
+</div>
+</section>
+
+<section class="rate">
+<h2>৳155</h2>
+<p>Today Dollar Rate - No Extra Charge</p>
+</section>
+
+<div class="footer">
+© 2026 JR Digital Marketing
+</div>
+
+</body>
+</html>
